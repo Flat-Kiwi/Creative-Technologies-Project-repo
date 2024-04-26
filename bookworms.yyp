@@ -45,7 +45,6 @@
     {"id":{"name":"objScoreboard","path":"objects/objScoreboard/objScoreboard.yy",},},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
-    {"id":{"name":"auto","path":"scripts/auto/auto.yy",},},
     {"id":{"name":"sndBombHiss","path":"sounds/sndBombHiss/sndBombHiss.yy",},},
     {"id":{"name":"sndBombPickup","path":"sounds/sndBombPickup/sndBombPickup.yy",},},
     {"id":{"name":"sndBoom","path":"sounds/sndBoom/sndBoom.yy",},},
