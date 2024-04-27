@@ -18,20 +18,32 @@ draw_text(time_offset_x,time_offset_y,formatted_timer)
 
 // SCORES
 
-draw_set_color(c_grey)
+
 
 for (var i = 0; i < 4; i += 1) {
+	draw_set_color(c_grey)
 	var offset_x = 48 
 	if (i > 1) offset_x = 96
 	var offset_y = 0 + ((i mod 2)*8) - 1
-	//if (i > 2) offset_y = 8
-	var formattedScore = string_replace_all(string_format(scores[i], 2, 0), " ", "0")
+	//if (i > 2) offset_y = 
+	var formattedScore = ""
+	if scores[i] < 100 {
+		formattedScore = string_replace_all(string_format(scores[i], 2, 0), " ", "0")
+		
+	} else {
+		// start displaying as hex so that it never shows more than 2 characters. advanced
+		formattedScore = dec_to_hex(scores[i])
+		draw_set_color(c_yellow)
+	}
 	draw_text(offset_x,offset_y,formattedScore)
 }
 
-// KILL MYSELF ROAD
+// aaaaaaaaaaaaaaaaaaaaaaaaa
 
 max_per_row = 10
+
+
+// left side scores
 
 for (var i = 0; i < 2; i+= 1) {
 	var offset_x = 9
@@ -52,7 +64,7 @@ for (var i = 0; i < 2; i+= 1) {
 	
 }
 
-// right side6
+// right side
 
 for (var i = 2; i < 4; i+= 1) {
 	
