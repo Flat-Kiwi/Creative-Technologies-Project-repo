@@ -66,6 +66,7 @@
     {"id":{"name":"sprHudBG","path":"sprites/sprHudBG/sprHudBG.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprPSpawn","path":"sprites/sprPSpawn/sprPSpawn.yy",},},
+    {"id":{"name":"sprScoreboardBG_corrupted","path":"sprites/sprScoreboardBG_corrupted/sprScoreboardBG_corrupted.yy",},},
     {"id":{"name":"sprScoreboardBG","path":"sprites/sprScoreboardBG/sprScoreboardBG.yy",},},
     {"id":{"name":"sprScoreboardLetters","path":"sprites/sprScoreboardLetters/sprScoreboardLetters.yy",},},
     {"id":{"name":"sprScoreLetters","path":"sprites/sprScoreLetters/sprScoreLetters.yy",},},

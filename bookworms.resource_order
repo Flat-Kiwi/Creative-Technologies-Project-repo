@@ -44,6 +44,7 @@
     {"name":"sprHudBG","order":1,"path":"sprites/sprHudBG/sprHudBG.yy",},
     {"name":"sprPlayer","order":2,"path":"sprites/sprPlayer/sprPlayer.yy",},
     {"name":"sprPSpawn","order":6,"path":"sprites/sprPSpawn/sprPSpawn.yy",},
+    {"name":"sprScoreboardBG_corrupted","order":12,"path":"sprites/sprScoreboardBG_corrupted/sprScoreboardBG_corrupted.yy",},
     {"name":"sprScoreboardBG","order":10,"path":"sprites/sprScoreboardBG/sprScoreboardBG.yy",},
     {"name":"sprScoreboardLetters","order":11,"path":"sprites/sprScoreboardLetters/sprScoreboardLetters.yy",},
     {"name":"sprScoreLetters","order":4,"path":"sprites/sprScoreLetters/sprScoreLetters.yy",},

@@ -28,7 +28,7 @@ fruit_amounts = []
 fruit_types = []
 scores = [30,22,40,90]
 
-#macro SECOND_LENGTH 60
+#macro SECOND_LENGTH 80
 
 // debug
 selected_player = 0

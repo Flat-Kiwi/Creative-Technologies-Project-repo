@@ -28,8 +28,8 @@ if objGame.game_started {
 }
 
 
-//Check for horizontal collisions and then move if we can
-var onepixel = sign(hsp) //moving left or right? right = 1, left = -1.
+
+var onepixel = sign(hsp) 
 if (place_meeting(x+hsp,y,objWall))
 {
     //move as close as we can
@@ -42,15 +42,15 @@ if (place_meeting(x+hsp,y,objWall))
 	{
 	   audio_play_sound(sndCollision,0,0)
 	}
-	audio_stop_sound(sndMove)
+	audio_stop_sound(sndMove) 
 }
 x = x + hsp;
 
-//Check for vertical collisions and then move if we can
-var onepixel = sign(vsp) //up = -1, down = 1.
+
+var onepixel = sign(vsp) 
 if (place_meeting(x,y+vsp,objWall))
 {
-    //move as close as we can
+    
     while (!place_meeting(x,y+onepixel,objWall))
     {
         y = y + onepixel;
